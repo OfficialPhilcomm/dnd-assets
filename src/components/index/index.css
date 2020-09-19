@@ -1,0 +1,25 @@
+.index-header {
+  width: 100%;
+  text-align: center;
+}
+
+.index-link {
+  width: 100%;
+  text-align: center;
+}
+
+.index-buttonGoToOverview {
+  background-color: #32a852;
+  border: 2px solid #32a852;
+  border-radius: 100px;
+  color: white;
+  padding: 10px 20px;
+
+  transition: 200ms background-color, color, box-shadow;
+}
+
+.index-buttonGoToOverview:hover {
+  background-color: white;
+  color: #32a852;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
+}
