@@ -1,0 +1,18 @@
+.fullItemList-itemBox {
+  width: 100px;
+  background-color: blue;
+  margin: 10px;
+  padding: 5px;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.fullItemList-itemBox-image {
+  width: 80px;
+  height: 80px;
+}
+
+.fullItemList-itemBox-name {
+}
