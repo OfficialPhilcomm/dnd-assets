@@ -7,6 +7,16 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  transition: 300ms transform;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .fullItemList-itemBox:hover {
+    z-index: 2;
+    transform: scale(1.5, 1.5);
+  }
 }
 
 .fullItemList-itemBox-image {

@@ -4,4 +4,6 @@ nav {
   background-color: #32a852;
 
   position: fixed;
+
+  z-index: 5;
 }
