@@ -12,16 +12,16 @@ export default class ItemBox extends Component {
     const itemName = item.name || "Name missing";
 
     return (
-      <Link to={`/item/${itemId}`}>
-        <div className="fullItemList-itemBox">
+      <div className="fullItemList-itemBox">
+        <Link to={`/item/${itemId}`}>
           <img
             className="fullItemList-itemBox-image"
             src={itemSpriteUrl}
             alt={item.name}
           />
           <div className="fullItemList-itemBox-name">{itemName}</div>
-        </div>
-      </Link>
+        </Link>
+      </div>
     );
   }
 }
