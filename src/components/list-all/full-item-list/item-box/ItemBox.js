@@ -11,7 +11,11 @@ export default class ItemBox extends Component {
 
     return (
       <div className="fullItemList-itemBox">
-        <img className="fullItemList-itemBox-image" src={itemSpriteUrl} />
+        <img
+          className="fullItemList-itemBox-image"
+          src={itemSpriteUrl}
+          alt={item.name}
+        />
         <div className="fullItemList-itemBox-name">{itemName}</div>
       </div>
     );
