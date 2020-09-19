@@ -12,7 +12,5 @@
 .fullItemList-itemBox-image {
   width: 80px;
   height: 80px;
-}
-
-.fullItemList-itemBox-name {
+  margin: 5px;
 }
