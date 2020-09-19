@@ -3,3 +3,8 @@
 
   background-color: white;
 }
+
+main {
+  min-height: 100vh;
+  padding-top: 60px;
+}
