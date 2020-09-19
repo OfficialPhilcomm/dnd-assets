@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import IndexMain from "./components/index_main/IndexMain";
+import ListAll from "./components/list-all/ListAll";
 import Nav from "./components/nav/Nav";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/" exact component={IndexMain} />
+          <Route path="/list" exact component={ListAll} />
         </Switch>
       </div>
     </Router>

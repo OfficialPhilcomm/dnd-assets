@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import FullItemList from "./full-item-list/FullItemList";
-import "./index-main.css";
+import "./list-all.css";
 
-export default class IndexMain extends Component {
+export default class ListAll extends Component {
   render() {
     return (
       <main>
