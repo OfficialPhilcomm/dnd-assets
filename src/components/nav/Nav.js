@@ -3,6 +3,6 @@ import "./nav.css";
 
 export default class Nav extends Component {
   render() {
-    return <nav>This is the nav bar</nav>;
+    return <nav></nav>;
   }
 }
