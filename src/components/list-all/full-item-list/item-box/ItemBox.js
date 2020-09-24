@@ -8,7 +8,8 @@ export default class ItemBox extends Component {
     const item = this.props.item || {};
 
     const itemId = item.id;
-    const itemSpriteUrl = item.spriteUrl || QuestionMark;
+    const itemSpriteUrl =
+      item.spriteUrl || require(`../../../../img/sprites/${itemId}.png`);
     const itemName = item.name || "Name missing";
 
     return (
