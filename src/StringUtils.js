@@ -1,6 +1,16 @@
 export default class StringUtils {
   static items = [
     {
+      id: "6f1ac1a1-b4d7-44d3-b12f-f4955dfed557",
+      name: "The Sword!",
+      playerLevel: 1,
+      rarity: 1,
+      racialOrigin: "human",
+      unique: false,
+      itemType: "sword",
+      cursed: false,
+    },
+    {
       id: "3c7efe5d-e23b-43e4-a40d-f0f818adf95f",
       name: "mystic spear",
       spriteUrl:
