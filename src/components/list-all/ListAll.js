@@ -43,7 +43,7 @@ export default class ListAll extends Component {
     const filterOpened = this.state.filterOpened;
 
     return (
-      <main>
+      <main className="listAll-main">
         <div>
           <div>
             <button onClick={this.filterToggle}>

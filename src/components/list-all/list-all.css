@@ -1,3 +1,7 @@
+.listAll-main {
+  background-color: #e8edea;
+}
+
 .listAll-filter {
   display: flex;
   flex-direction: row;
