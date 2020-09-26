@@ -17,6 +17,10 @@ export default class StringUtils {
     },
   ];
 
+  static getItemById(itemId) {
+    return this.items.filter((item) => item.id === itemId)[0] || null;
+  }
+
   static deepEqual(object1, object2) {
     const keys1 = Object.keys(object1);
     const keys2 = Object.keys(object2);
@@ -46,5 +50,9 @@ export default class StringUtils {
 
   static distinct(arr) {
     return arr.filter((value, index, self) => self.indexOf(value) === index);
+  }
+
+  static poundsToKilogram(lbs) {
+    return Math.round(lbs * 0.45359237 * 100) / 100;
   }
 }

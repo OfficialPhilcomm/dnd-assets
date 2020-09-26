@@ -1,0 +1,21 @@
+.detailsTable {
+  width: 100%;
+}
+
+.detailsTable-tbody {
+  width: 100%;
+}
+
+.detailsTable-row {
+  width: 100%;
+}
+
+.detailsTable-row-title {
+  width: 50%;
+  text-align: right;
+}
+
+.detailsTable-row-content {
+  width: 50%;
+  text-align: left;
+}

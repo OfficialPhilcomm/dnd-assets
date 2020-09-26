@@ -1,0 +1,28 @@
+.itemDetails-spriteContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemDetails-spriteContainer-image {
+  width: 200px;
+  height: 200px;
+}
+
+.itemDetails-name {
+  text-align: center;
+  width: 100%;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.itemDetails-description {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  text-align: justify;
+
+  margin-left: auto;
+  margin-right: auto;
+}
