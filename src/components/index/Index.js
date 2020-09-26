@@ -8,7 +8,7 @@ export default class Index extends Component {
       <main className="index">
         <h1 className="index-header">Welcome!</h1>
         <div className="index-link">
-          <Link to={"/list"}>
+          <Link to={"/items"}>
             <button className="index-buttonGoToOverview">Go to overview</button>
           </Link>
         </div>

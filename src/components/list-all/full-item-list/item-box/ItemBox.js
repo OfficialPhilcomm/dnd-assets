@@ -14,7 +14,7 @@ export default class ItemBox extends Component {
 
     return (
       <div className="fullItemList-itemBox">
-        <Link to={`/item/${itemId}`}>
+        <Link to={`/items/${itemId}`}>
           <img
             className="fullItemList-itemBox-image"
             src={itemSpriteUrl}
