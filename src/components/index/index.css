@@ -1,6 +1,30 @@
-.index-header {
+.index-welcome {
+  width: 100%;
+  max-width: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-welcome-header {
   width: 100%;
   text-align: center;
+}
+
+.index-welcome-paragraph {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.index-welcome-patreon {
+  height: 12pt;
+  color: black;
 }
 
 .index-link {
@@ -14,8 +38,11 @@
   border-radius: 100px;
   color: white;
   padding: 10px 20px;
+  margin-top: 10px;
 
   transition: 200ms background-color, color, box-shadow;
+
+  cursor: pointer;
 }
 
 .index-buttonGoToOverview:hover {
