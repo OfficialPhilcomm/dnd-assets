@@ -96,7 +96,7 @@ export default class ListAll extends Component {
                 </select>
               </div>
 
-              <input type="submit" />
+              <input type="submit" value="Filter items" />
             </form>
           ) : null}
         </div>
