@@ -5,6 +5,7 @@ import Nav from "./components/nav/Nav";
 import Index from "./components/index/Index";
 import ListAll from "./components/list-all/ListAll";
 import ItemDetails from "./components/item-details/ItemDetails";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/items" exact component={ListAll} />
           <Route path="/items/:id" exact component={ItemDetails} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
