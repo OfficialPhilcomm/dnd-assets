@@ -21,11 +21,28 @@ export default class Index extends Component {
             You need something more specific? The system is designed to help you
             filter the items so that in the end you get a good fitting item.
           </p>
+          <h2 className="index-welcome-header">Funding</h2>
           <p className="index-welcome-paragraph">
-            Wanna get early access to new item releases or just support us so we
-            can keep up adding to this ever growing item library? We have a
-            Patreon <Patreon className="index-welcome-patreon" /> (not set up
-            yet)
+            Since this project provided to you for free, and the team has
+            consistent expenses, we need to go for alternative funding sources.
+            For once, we have our Patreon{" "}
+            <Patreon className="index-welcome-patreon" />. It helps us keep the
+            service running, and gives you the benefit of insights and early
+            access to future releases.
+          </p>
+          <p className="index-welcome-paragraph">
+            To make the project costs as transparent as possible to you, here is
+            the estimated monthly cost and how it was calculated:
+          </p>
+          <ul>
+            <li>Domain: 4$</li>
+            <li>Frontend Hosting: 7$</li>
+            <li>Backend Hosting: 5$</li>
+            <li>FontAwesome (Icons): 9$</li>
+          </ul>
+          <p className="index-welcome-paragraph">
+            Together, this is a total amount of 25$. With just 2$ a month, you
+            can help keep this project up. Only if you can afford it though
           </p>
         </div>
         <div className="index-link">

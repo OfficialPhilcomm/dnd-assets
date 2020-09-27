@@ -14,9 +14,18 @@
 .index-welcome-header {
   width: 100%;
   text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .index-welcome-paragraph {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.index-welcome-list {
   width: 100%;
   padding: 10px;
   margin: 0;
