@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import StringUtils from "../../StringUtils";
 import FullItemList from "./full-item-list/FullItemList";
 import "./list-all.css";
+import { ReactComponent as FilterIcon } from "../../img/filter-solid.svg";
 
 export default class ListAll extends Component {
   state = {
@@ -46,59 +47,64 @@ export default class ListAll extends Component {
       <main className="listAll-main">
         <div>
           <div>
-            <button onClick={this.filterToggle}>
-              {filterOpened ? "Close filter" : "Open filter"}
+            <button
+              className="listAll-filterToggle"
+              onClick={this.filterToggle}
+            >
+              {filterOpened ? "Close filter" : "Open filter"} <FilterIcon />
             </button>
           </div>
-          {filterOpened ? (
-            <form className="listAll-filter" onSubmit={this.filterSubmit}>
-              <div className="listAll-filterBox">
-                <div>Racial Origin</div>
-                <select name="racialOrigin">
-                  <option value="all">All</option>
-                  {StringUtils.distinct(
-                    StringUtils.items.map((item) => item.racialOrigin)
-                  ).map((racialOrigin) => (
-                    <option value={racialOrigin} key={racialOrigin}>
-                      {racialOrigin}
-                    </option>
-                  ))}
-                </select>
-              </div>
 
-              <div className="listAll-filterBox">
-                <div>Unique</div>
-                <select name="unique">
-                  <option value="all">All</option>
-                  <option value="false">Common</option>
-                  <option value="true">Unique</option>
-                </select>
-              </div>
-              <div className="listAll-filterBox">
-                <div>Item Type</div>
-                <select name="itemType">
-                  <option value="all">All</option>
-                  {StringUtils.distinct(
-                    StringUtils.items.map((item) => item.itemType)
-                  ).map((itemType) => (
-                    <option value={itemType} key={itemType}>
-                      {itemType}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="listAll-filterBox">
-                <div>Cursed</div>
-                <select name="cursed">
-                  <option value="all">All</option>
-                  <option value="false">Not Cursed</option>
-                  <option value="true">Cursed</option>
-                </select>
-              </div>
+          <form
+            className={filterOpened ? "listAll-filter open" : "listAll-filter"}
+            onSubmit={this.filterSubmit}
+          >
+            <div className="listAll-filterBox">
+              <div>Racial Origin</div>
+              <select name="racialOrigin">
+                <option value="all">All</option>
+                {StringUtils.distinct(
+                  StringUtils.items.map((item) => item.racialOrigin)
+                ).map((racialOrigin) => (
+                  <option value={racialOrigin} key={racialOrigin}>
+                    {racialOrigin}
+                  </option>
+                ))}
+              </select>
+            </div>
 
-              <input type="submit" value="Filter items" />
-            </form>
-          ) : null}
+            <div className="listAll-filterBox">
+              <div>Unique</div>
+              <select name="unique">
+                <option value="all">All</option>
+                <option value="false">Common</option>
+                <option value="true">Unique</option>
+              </select>
+            </div>
+            <div className="listAll-filterBox">
+              <div>Item Type</div>
+              <select name="itemType">
+                <option value="all">All</option>
+                {StringUtils.distinct(
+                  StringUtils.items.map((item) => item.itemType)
+                ).map((itemType) => (
+                  <option value={itemType} key={itemType}>
+                    {itemType}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="listAll-filterBox">
+              <div>Cursed</div>
+              <select name="cursed">
+                <option value="all">All</option>
+                <option value="false">Not Cursed</option>
+                <option value="true">Cursed</option>
+              </select>
+            </div>
+
+            <input type="submit" value="Apply filter" />
+          </form>
         </div>
         <FullItemList filters={this.state.filters} />
       </main>

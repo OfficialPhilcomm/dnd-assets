@@ -1,5 +1,28 @@
 .listAll-main {
   background-color: #e8edea;
+
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.listAll-filterToggle {
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.listAll-filterToggle svg {
+  height: 18px;
 }
 
 .listAll-filter {
@@ -7,6 +30,18 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  height: 0px;
+  overflow-y: hidden;
+
+  background-color: white;
+
+  transition: 300ms height;
+
+  border-radius: 5px;
+}
+
+.listAll-filter.open {
+  height: 60px;
 }
 
 .listAll-filterBox {
