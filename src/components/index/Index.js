@@ -42,7 +42,10 @@ export default class Index extends Component {
           </ul>
           <p className="index-welcome-paragraph">
             Together, this is a total amount of 25$. With just 2$ a month, you
-            can help keep this project up. Only if you can afford it though
+            can help keep this project up. Only if you can afford it though. Of
+            course, we appreciate everything that goes above that. This project
+            was never intended to make a lot of money, though it sure motivates
+            keeping this project expanding.
           </p>
         </div>
         <div className="index-link">
