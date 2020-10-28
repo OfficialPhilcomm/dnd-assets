@@ -15,6 +15,21 @@ export default class StringUtils {
       weight: 1.5,
       properties: "versatile (1D10)",
     },
+    {
+      id: "b33541f1-779b-487a-931c-608a56f43e8e",
+      name: "Runed Scimitar",
+      description:
+        "Raiders that make their home in the desert have been known to use areas of strong elemental magic to enhance their equipment. This sword is capable of summoning the sands from the endless deserts of the plain of earth.",
+      playerLevel: 1,
+      rarity: 1,
+      racialOrigin: "human",
+      unique: false,
+      itemType: "sword",
+      cursed: false,
+      damage: "1D6+1 Slashing",
+      weight: 1.5,
+      properties: "+1 Magical Weapon, Finesse, Light",
+    },
   ];
 
   static getItemById(itemId) {

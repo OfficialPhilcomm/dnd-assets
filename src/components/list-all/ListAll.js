@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import StringUtils from "../../StringUtils";
 import FullItemList from "./full-item-list/FullItemList";
 import "./list-all.css";
-import { ReactComponent as FilterIcon } from "../../img/filter-solid.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
 
 export default class ListAll extends Component {
   state = {
@@ -51,7 +52,8 @@ export default class ListAll extends Component {
               className="listAll-filterToggle"
               onClick={this.filterToggle}
             >
-              {filterOpened ? "Close filter" : "Open filter"} <FilterIcon />
+              {filterOpened ? "Close filter" : "Open filter"}
+              <FontAwesomeIcon icon={faFilter} />
             </button>
           </div>
 

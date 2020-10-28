@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import { ReactComponent as Patreon } from "../../img/patreon-brands.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPatreon } from "@fortawesome/free-brands-svg-icons";
 
 export default class Index extends Component {
   render() {
@@ -25,10 +26,9 @@ export default class Index extends Component {
           <p className="index-welcome-paragraph">
             Since this project provided to you for free, and the team has
             consistent expenses, we need to go for alternative funding sources.
-            For once, we have our Patreon{" "}
-            <Patreon className="index-welcome-patreon" />. It helps us keep the
-            service running, and gives you the benefit of insights and early
-            access to future releases.
+            For once, we have our Patreon <FontAwesomeIcon icon={faPatreon} />.
+            It helps us keep the service running, and gives you the benefit of
+            insights and early access to future releases.
           </p>
           <p className="index-welcome-paragraph">
             To make the project costs as transparent as possible to you, here is

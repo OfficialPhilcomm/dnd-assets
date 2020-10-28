@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./footer.css";
-import { ReactComponent as Patreon } from "../../img/patreon-brands.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPatreon } from "@fortawesome/free-brands-svg-icons";
 
 export default class Footer extends Component {
   render() {
@@ -8,7 +9,10 @@ export default class Footer extends Component {
       <footer>
         <div className="footer-copyright">&copy;Philipp Schlesinger</div>
         <div className="footer-socialMedia">
-          <Patreon className="footer-socialMedia-patreon" />
+          <FontAwesomeIcon
+            icon={faPatreon}
+            className="footer-socialMedia-patreon"
+          />
         </div>
       </footer>
     );
