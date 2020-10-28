@@ -39,7 +39,7 @@ export default class StringUtils {
       rarity: 1,
       racialOrigin: "human",
       unique: false,
-      itemType: "sword",
+      itemType: "helmet",
       cursed: false,
       weight: 2,
       properties: "+1 Charisma",
@@ -53,7 +53,7 @@ export default class StringUtils {
       rarity: 1,
       racialOrigin: "fiendish",
       unique: false,
-      itemType: "sword",
+      itemType: "helmet",
       cursed: false,
       weight: 0.5,
       properties:
@@ -68,7 +68,7 @@ export default class StringUtils {
       rarity: 1,
       racialOrigin: "human",
       unique: false,
-      itemType: "sword",
+      itemType: "helmet",
       cursed: false,
       weight: 0.1,
       properties:
