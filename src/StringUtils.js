@@ -44,6 +44,21 @@ export default class StringUtils {
       weight: 2,
       properties: "+1 Charisma",
     },
+    {
+      id: "f14bf414-76cc-4abc-8f9c-7e7e48ff6def",
+      name: "Fiend’s Hood",
+      description:
+        "Said to be the cowl worn by executions of the nine hells, this dark item bestows a power on the user to aid in their slaughter but that takes its toll on the body over time.",
+      playerLevel: 1,
+      rarity: 1,
+      racialOrigin: "fiendish",
+      unique: false,
+      itemType: "sword",
+      cursed: false,
+      weight: 0.5,
+      properties:
+        "Whilst wearing this hood, if the user slays an enemy a wave of fear washes over their allies. All enemy creatures within 15ft must make a DC15 Wisdom Saving Throw.",
+    },
   ];
 
   static getItemById(itemId) {
