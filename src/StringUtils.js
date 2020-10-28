@@ -59,6 +59,21 @@ export default class StringUtils {
       properties:
         "Whilst wearing this hood, if the user slays an enemy a wave of fear washes over their allies. All enemy creatures within 15ft must make a DC15 Wisdom Saving Throw.",
     },
+    {
+      id: "6e9497ea-eda1-411a-8a75-6e1717d6bfba",
+      name: "Mask of the Penguin ",
+      description:
+        "Crafted for use at costume parties and fancy balls this magical piece of headgear allows the wearer to both elegantly disguise themselves and delight partygoers with a bit of transmutation magic.",
+      playerLevel: 1,
+      rarity: 1,
+      racialOrigin: "human",
+      unique: false,
+      itemType: "sword",
+      cursed: false,
+      weight: 0.1,
+      properties:
+        "Once per day, whilst wearing this mask you can turn into any kind of penguin you are familiar with, if you are not familiar with any you may use the Emperor Penguin. It must be medium or smaller. This affect lasts for 2 hours.",
+    },
   ];
 
   static getItemById(itemId) {
