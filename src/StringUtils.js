@@ -30,6 +30,20 @@ export default class StringUtils {
       weight: 1.5,
       properties: "+1 Magical Weapon, Finesse, Light",
     },
+    {
+      id: "1f02b2a5-0a45-4b47-bfeb-d832abbfc3d5",
+      name: "Golden Helmet",
+      description:
+        "Heroes of great renown are capable of inspiring their fellows with powerful words and mighty actions. Sometimes those deeds empower their equipment and when they leave this world others may fight in their stead, benefitting from a mote of their power.",
+      playerLevel: 1,
+      rarity: 1,
+      racialOrigin: "human",
+      unique: false,
+      itemType: "sword",
+      cursed: false,
+      weight: 2,
+      properties: "+1 Charisma",
+    },
   ];
 
   static getItemById(itemId) {
