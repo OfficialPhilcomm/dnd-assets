@@ -12,7 +12,7 @@ export default class ItemDetails extends Component {
       item.spriteUrl || require(`../../img/sprites/${itemId}.png`);
 
     return (
-      <main>
+      <main className="itemDetails-main">
         <div className="itemDetails-spriteContainer">
           <img
             className="itemDetails-spriteContainer-image"

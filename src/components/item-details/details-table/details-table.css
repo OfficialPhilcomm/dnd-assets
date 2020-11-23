@@ -1,5 +1,18 @@
 .detailsTable {
   width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  text-align: justify;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: PassionOne, Roboto, sans-serif;
+  font-size: 14pt;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
 }
 
 .detailsTable-tbody {
@@ -13,9 +26,12 @@
 .detailsTable-row-title {
   width: 50%;
   text-align: right;
+  vertical-align: top;
+  color: #668efa;
 }
 
 .detailsTable-row-content {
   width: 50%;
   text-align: left;
+  color: #c166fa;
 }

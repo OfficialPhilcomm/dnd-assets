@@ -1,3 +1,10 @@
+.itemDetails-main {
+  background: url("../../img/TwilightCave_C.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .itemDetails-spriteContainer {
   display: flex;
   flex-direction: row;
@@ -6,15 +13,32 @@
 }
 
 .itemDetails-spriteContainer-image {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
+
+  padding: 10px;
+  margin: 20px 0 10px 0;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
 }
 
 .itemDetails-name {
-  text-align: center;
   width: 100%;
+  max-width: 220px;
+
+  margin: 10px auto 10px auto;
+
+  text-align: center;
+
+  font-family: PassionOne, Roboto, sans-serif;
   font-size: 20pt;
   font-weight: bold;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
 }
 
 .itemDetails-description {
@@ -23,6 +47,12 @@
   padding: 10px;
   text-align: justify;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto 10px auto;
+
+  font-family: PassionOne, Roboto, sans-serif;
+  font-size: 14pt;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
 }
