@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./item-box.css";
 import { Link } from "react-router-dom";
-import QuestionMark from "../../../../img/question-circle-regular.svg";
 
 export default class ItemBox extends Component {
   render() {

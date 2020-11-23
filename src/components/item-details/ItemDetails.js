@@ -14,7 +14,11 @@ export default class ItemDetails extends Component {
     return (
       <main>
         <div className="itemDetails-spriteContainer">
-          <img className="itemDetails-spriteContainer-image" src={spriteUrl} />
+          <img
+            className="itemDetails-spriteContainer-image"
+            alt="Item Sprite"
+            src={spriteUrl}
+          />
         </div>
         <div className="itemDetails-name">{item.name}</div>
         <div className="itemDetails-description">{item.description}</div>
