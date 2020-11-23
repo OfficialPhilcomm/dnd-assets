@@ -4,6 +4,7 @@ import FullItemList from "./full-item-list/FullItemList";
 import "./list-all.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilter } from "@fortawesome/free-solid-svg-icons";
+import ItemController from "../../ItemController";
 
 export default class ListAll extends Component {
   state = {
@@ -66,7 +67,7 @@ export default class ListAll extends Component {
               <select name="racialOrigin">
                 <option value="all">All</option>
                 {StringUtils.distinct(
-                  StringUtils.items.map((item) => item.racialOrigin)
+                  ItemController.items.map((item) => item.racialOrigin)
                 ).map((racialOrigin) => (
                   <option value={racialOrigin} key={racialOrigin}>
                     {racialOrigin}
@@ -88,7 +89,7 @@ export default class ListAll extends Component {
               <select name="itemType">
                 <option value="all">All</option>
                 {StringUtils.distinct(
-                  StringUtils.items.map((item) => item.itemType)
+                  ItemController.items.map((item) => item.itemType)
                 ).map((itemType) => (
                   <option value={itemType} key={itemType}>
                     {itemType}
