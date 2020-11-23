@@ -51,7 +51,7 @@ export default class Index extends Component {
         <div className="index-link">
           <Link to={"/items"}>
             <button className="index-buttonGoToOverview">
-              Go to item list
+              Click here for the full item list
             </button>
           </Link>
         </div>

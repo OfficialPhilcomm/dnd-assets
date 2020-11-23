@@ -56,10 +56,13 @@
 }
 
 .index-buttonGoToOverview {
-  background-color: #32a852;
-  border: 2px solid #32a852;
+  background: rgba(62, 142, 207, 0.7);
+  border: 2px solid white;
   border-radius: 100px;
+
   color: white;
+  font-family: PassionOne, Roboto, sans-serif;
+  font-size: 14pt;
 
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -71,6 +74,6 @@
 
 .index-buttonGoToOverview:hover {
   background-color: white;
-  color: #32a852;
+  color: #3e8ecf;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
 }
