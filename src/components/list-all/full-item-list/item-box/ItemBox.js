@@ -12,7 +12,7 @@ export default class ItemBox extends Component {
     const itemName = item.name || "Name missing";
 
     return (
-      <div className="fullItemList-itemBox">
+      <div className={`fullItemList-itemBox ${item.elementalType}`}>
         <Link to={`/items/${itemId}`}>
           <img
             className="fullItemList-itemBox-image"
