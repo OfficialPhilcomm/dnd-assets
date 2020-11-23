@@ -1,5 +1,8 @@
 .listAll-main {
-  background-color: #e8edea;
+  background: url("../../img/TwilightCave_C.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
   padding-left: 5px;
   padding-right: 5px;
