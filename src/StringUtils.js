@@ -1,6 +1,8 @@
+import ItemController from "./ItemController";
+
 export default class StringUtils {
   static getItemById(itemId) {
-    return this.items.filter((item) => item.id === itemId)[0] || null;
+    return ItemController.items.filter((item) => item.id === itemId)[0] || null;
   }
 
   static deepEqual(object1, object2) {
