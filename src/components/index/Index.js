@@ -9,7 +9,7 @@ export default class Index extends Component {
     return (
       <main className="index">
         <div className="index-welcome">
-          <h1 className="index-welcome-header">DnD Assets</h1>
+          <h1 className="index-welcome-header">Welcome</h1>
           <p className="index-welcome-paragraph">
             Welcome to the DnD Assets community. In this place you can find
             assets you can use for your campaign.
@@ -22,7 +22,7 @@ export default class Index extends Component {
             You need something more specific? The system is designed to help you
             filter the items so that in the end you get a good fitting item.
           </p>
-          <h2 className="index-welcome-header">Funding</h2>
+          <h1 className="index-welcome-header">Funding</h1>
           <p className="index-welcome-paragraph">
             Since this project provided to you for free, and the team has
             consistent expenses, we need to go for alternative funding sources.
@@ -34,7 +34,7 @@ export default class Index extends Component {
             To make the project costs as transparent as possible to you, here is
             the estimated monthly cost and how it was calculated:
           </p>
-          <ul>
+          <ul className="index-welcome-list">
             <li>Domain: 4$</li>
             <li>Frontend Hosting: 7$</li>
             <li>Backend Hosting: 5$</li>
