@@ -14,7 +14,7 @@
       "damage": "1D8+1 Slashing",
       "weight": 1.5,
       "properties": "versatile (1D10)",
-      "elementalType": "normal"
+      "elementalType": "ice"
     },
     {
       "id": "b33541f1-779b-487a-931c-608a56f43e8e",
@@ -30,7 +30,7 @@
       "damage": "1D6+1 Slashing",
       "weight": 1.5,
       "properties": "+1 Magical Weapon, Finesse, Light",
-      "elementalType": "normal"
+      "elementalType": "fire"
     },
     {
       "id": "1f02b2a5-0a45-4b47-bfeb-d832abbfc3d5",

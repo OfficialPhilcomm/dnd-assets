@@ -19,6 +19,20 @@
     rgba(224, 224, 224, 1) 100%
   );
 }
+.fullItemList-itemBox.fire {
+  background: linear-gradient(
+    215deg,
+    rgba(214, 162, 140, 1) 0%,
+    rgba(241, 85, 73, 1) 100%
+  );
+}
+.fullItemList-itemBox.ice {
+  background: linear-gradient(
+    215deg,
+    rgba(220, 254, 255, 1) 0%,
+    rgba(92, 222, 215, 1) 100%
+  );
+}
 
 .fullItemList-itemBox a {
   text-decoration: none;
