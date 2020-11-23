@@ -24,10 +24,10 @@ export default class Index extends Component {
           </p>
           <h1 className="index-welcome-header">Funding</h1>
           <p className="index-welcome-paragraph">
-            Since this project provided to you for free, and the team has
-            consistent expenses, we need to go for alternative funding sources.
-            For once, we have our Patreon <FontAwesomeIcon icon={faPatreon} />.
-            It helps us keep the service running, and gives you the benefit of
+            Since this project is provided to you for free, and the team has
+            ongoing expenses, we need to go for alternative funding sources. For
+            once, we have our Patreon <FontAwesomeIcon icon={faPatreon} />. It
+            helps us keep the service running, and gives you the benefit of
             insights and early access to future releases.
           </p>
           <p className="index-welcome-paragraph">
@@ -44,7 +44,7 @@ export default class Index extends Component {
             Together, this is a total amount of 25$. With just 2$ a month, you
             can help keep this project up. Only if you can afford it though. Of
             course, we appreciate everything that goes above that. This project
-            was never intended to make a lot of money, though it sure motivates
+            was never intended to make us money, though it sure motivates
             keeping this project expanding.
           </p>
         </div>
