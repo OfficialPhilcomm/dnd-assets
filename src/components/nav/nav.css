@@ -19,6 +19,7 @@ nav {
 }
 
 .nav-title {
-  font-size: 20pt;
-  font-weight: bold;
+  font-family: PassionOne, Roboto, sans-serif;
+  font-size: 24pt;
+  color: #3d3d3d;
 }
