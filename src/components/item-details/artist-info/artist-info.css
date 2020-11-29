@@ -1,0 +1,60 @@
+.artistInfo {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px auto 10px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: PassionOne, Roboto, sans-serif;
+  font-size: 14pt;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+
+.artistInfo-socialMedia {
+  padding-right: 20px;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.artistInfo-socialMedia-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 5px;
+
+  cursor: pointer;
+
+  color: black;
+}
+
+.artistInfo-socialMedia-container-logo {
+  font-size: 30px;
+  margin: 0 5px;
+
+  transition: 150ms color;
+}
+
+.artistInfo-socialMedia-container.instagram:hover {
+  color: #f56040;
+}
+
+.artistInfo-socialMedia-container.twitter:hover {
+  color: #1da1f2;
+}
+
+.artistInfo-socialMedia-container-username {
+  transition: 150ms color;
+}

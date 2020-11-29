@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./item-details.css";
 import StringUtils from "../../StringUtils";
 import DetailsTable from "./details-table/DetailsTable";
+import ArtistInfo from "./artist-info/ArtistInfo";
 
 export default class ItemDetails extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class ItemDetails extends Component {
         <div className="itemDetails-name">{item.name}</div>
         <div className="itemDetails-description">{item.description}</div>
         <DetailsTable item={item} />
+        <ArtistInfo />
       </main>
     );
   }
