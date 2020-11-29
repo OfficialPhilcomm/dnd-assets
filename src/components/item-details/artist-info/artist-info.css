@@ -27,6 +27,10 @@
   align-items: flex-end;
 }
 
+.artistInfo-socialMedia a {
+  text-decoration: none;
+}
+
 .artistInfo-socialMedia-container {
   display: flex;
   flex-direction: row;

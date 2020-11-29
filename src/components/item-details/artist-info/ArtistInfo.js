@@ -12,24 +12,36 @@ export default class ArtistInfo extends Component {
           <span>Will</span>
         </div>
         <div className="artistInfo-socialMedia">
-          <div className="artistInfo-socialMedia-container instagram">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="artistInfo-socialMedia-container-logo"
-            />
-            <div className="artistInfo-socialMedia-container-username">
-              @will
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/"
+          >
+            <div className="artistInfo-socialMedia-container instagram">
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="artistInfo-socialMedia-container-logo"
+              />
+              <div className="artistInfo-socialMedia-container-username">
+                @will
+              </div>
             </div>
-          </div>
-          <div className="artistInfo-socialMedia-container twitter">
-            <FontAwesomeIcon
-              icon={faTwitter}
-              className="artistInfo-socialMedia-container-logo"
-            />
-            <div className="artistInfo-socialMedia-container-username">
-              @will
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/"
+          >
+            <div className="artistInfo-socialMedia-container twitter">
+              <FontAwesomeIcon
+                icon={faTwitter}
+                className="artistInfo-socialMedia-container-logo"
+              />
+              <div className="artistInfo-socialMedia-container-username">
+                @will
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     );
