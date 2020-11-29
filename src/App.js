@@ -9,8 +9,6 @@ import Footer from "./components/footer/Footer";
 import ItemController from "./ItemController";
 
 function App() {
-  console.log(ItemController.items);
-
   return (
     <Router>
       <div className="App">
