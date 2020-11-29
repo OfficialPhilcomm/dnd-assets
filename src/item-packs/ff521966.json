@@ -149,6 +149,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "fire"
+    },
+    {
+      "id": "ff521966-6d75-4ae2-9676-b290097071ff",
+      "name": "Double Edge Blade",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "sword",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal"
     }
   ]
 }
