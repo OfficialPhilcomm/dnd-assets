@@ -9,6 +9,7 @@ export default class Footer extends Component {
       <footer>
         <div className="footer-copyright">&copy;Philipp Schlesinger</div>
         <div className="footer-socialMedia">
+          <span>Support us on Patreon </span>
           <FontAwesomeIcon
             icon={faPatreon}
             className="footer-socialMedia-patreon"

@@ -21,11 +21,17 @@ footer {
 
 .footer-socialMedia {
   margin-left: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer-socialMedia-patreon {
-  width: 20px;
-  height: 20px;
+  font-size: 20px;
+
+  margin-left: 5px;
 
   color: #052d49;
 
