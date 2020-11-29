@@ -136,6 +136,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "ice"
+    },
+    {
+      "id": "ff521966-b845-4d6a-ad37-f75be5572bbb",
+      "name": "Flame Blade",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "sword",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "fire"
     }
   ]
 }
