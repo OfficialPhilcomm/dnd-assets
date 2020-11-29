@@ -8,15 +8,6 @@ test("check for item id uniqueness", () => {
   expect(item_ids.length).toEqual(unique_ids.size);
 });
 
-test("check for correct item id format", () => {
-  const itemIds = ItemController.items.map((item) => item.id);
-  const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
-
-  itemIds.forEach((itemId) => {
-    expect(itemId).toMatch(idRegex);
-  });
-});
-
 describe("check if ids have same prefix", () => {
   const itemPacks = ItemPacks.itemPacks;
 
@@ -29,6 +20,50 @@ describe("check if ids have same prefix", () => {
       );
 
       expect(packIdPrefixes.size).toEqual(1);
+    });
+  });
+});
+
+describe("check for correct item structure", () => {
+  const items = ItemController.items;
+
+  items.forEach((item) => {
+    test(`in item ${item.name || "name missing"}`, () => {
+      const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
+
+      expect(item.id).toBeDefined();
+      expect(typeof item.id).toEqual("string");
+      expect(item.id).toMatch(idRegex);
+
+      expect(item.name).toBeDefined();
+      expect(typeof item.name).toEqual("string");
+
+      expect(item.description).toBeDefined();
+      expect(typeof item.description).toEqual("string");
+
+      expect(item.playerLevel).toBeDefined();
+      expect(typeof item.playerLevel).toEqual("number");
+
+      expect(item.rarity).toBeDefined();
+      expect(typeof item.rarity).toEqual("number");
+
+      expect(item.racialOrigin).toBeDefined();
+      expect(typeof item.racialOrigin).toEqual("string");
+
+      expect(item.unique).toBeDefined();
+      expect(typeof item.unique).toEqual("boolean");
+
+      expect(item.itemType).toBeDefined();
+      expect(typeof item.itemType).toEqual("string");
+
+      expect(item.cursed).toBeDefined();
+      expect(typeof item.racialOrigin).toEqual("string");
+
+      expect(item.weight).toBeDefined();
+      expect(typeof item.weight).toEqual("number");
+
+      expect(item.elementalType).toBeDefined();
+      expect(typeof item.elementalType).toEqual("string");
     });
   });
 });
