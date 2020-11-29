@@ -175,6 +175,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "normal"
+    },
+    {
+      "id": "ff521966-3d21-4d68-8422-621e31d3811c",
+      "name": "Green Katana",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "sword",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal"
     }
   ]
 }
