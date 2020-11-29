@@ -109,8 +109,8 @@ export default class ListAll extends Component {
               <div>Unique</div>
               <select name="unique">
                 <option value="all">All</option>
-                <option value="false">Common</option>
-                <option value="true">Unique</option>
+                <option value="false">No</option>
+                <option value="true">Yes</option>
               </select>
             </div>
             <div className="listAll-filterBox">
@@ -130,8 +130,8 @@ export default class ListAll extends Component {
               <div>Cursed</div>
               <select name="cursed">
                 <option value="all">All</option>
-                <option value="false">Not Cursed</option>
-                <option value="true">Cursed</option>
+                <option value="false">No</option>
+                <option value="true">Yes</option>
               </select>
             </div>
             <div className="listAll-filterBox">
