@@ -86,14 +86,20 @@ export default class DetailsTable extends Component {
             </tr>
           ) : null}
 
-          {item.customProperties.map((customProperty) => (
-            <tr className="detailsTable-row" key={customProperty.name}>
-              <td className="detailsTable-row-title">{customProperty.name}</td>
-              <td className="detailsTable-row-content">
-                {customProperty.text}
-              </td>
-            </tr>
-          ))}
+          {item.customProperties ? (
+            <React.Fragment>
+              {item.customProperties.map((customProperty) => (
+                <tr className="detailsTable-row" key={customProperty.name}>
+                  <td className="detailsTable-row-title">
+                    {customProperty.name}
+                  </td>
+                  <td className="detailsTable-row-content">
+                    {customProperty.text}
+                  </td>
+                </tr>
+              ))}
+            </React.Fragment>
+          ) : null}
 
           {item.armorClass ? (
             <tr className="detailsTable-row">
