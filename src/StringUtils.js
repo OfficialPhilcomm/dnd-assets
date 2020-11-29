@@ -28,6 +28,15 @@ export default class StringUtils {
     return true;
   }
 
+  static humanize(string) {
+    if (string === null || string === undefined) return;
+    let words = string.split("-");
+    for (let i in words) {
+      words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    }
+    return words.join(" ");
+  }
+
   static isObject(object) {
     return object != null && typeof object === "object";
   }
