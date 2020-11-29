@@ -188,6 +188,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "normal"
+    },
+    {
+      "id": "ff521966-ab34-4428-87a4-5b0584770b8a",
+      "name": "Purple Demon Blade",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "sword",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal"
     }
   ]
 }
