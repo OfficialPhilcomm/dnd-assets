@@ -201,6 +201,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "normal"
+    },
+    {
+      "id": "ff521966-b5a9-4e48-8bf8-03d97fe91734",
+      "name": "Rusted Greatsword",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "sword",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal"
     }
   ]
 }
