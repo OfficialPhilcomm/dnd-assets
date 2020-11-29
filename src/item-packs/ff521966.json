@@ -8,7 +8,7 @@
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "elven",
-      "unique": false,
+      "unique": true,
       "itemType": "sword",
       "cursed": false,
       "damage": "1D8+1 Slashing",
