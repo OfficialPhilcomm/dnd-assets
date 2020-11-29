@@ -64,6 +64,13 @@
     rgba(92, 222, 215, 1) 100%
   );
 }
+.fullItemList-itemBox.nature {
+  background: linear-gradient(
+    215deg,
+    rgba(119, 245, 105, 1) 0%,
+    rgba(48, 163, 36, 1) 100%
+  );
+}
 
 .fullItemList-itemBox a {
   text-decoration: none;
