@@ -50,7 +50,7 @@ describe("check for correct item structure", () => {
 
   const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
   const racialOrigins = ["human", "fiendish", "elven"];
-  const itemTypes = ["sword", "helmet"];
+  const itemTypes = ["sword", "helmet", "gauntlet"];
   const elementalTypes = ["normal", "fire", "ice"];
 
   items.forEach((item) => {

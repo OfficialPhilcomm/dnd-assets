@@ -110,6 +110,19 @@
       "speed": "15ft, swim 60ft.",
       "skills": "Perception +3",
       "elementalType": "normal"
+    },
+    {
+      "id": "ff521966-be9f-493c-9394-81e9f38478cd",
+      "name": "Wooden Gauntlets",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "gauntlet",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal"
     }
   ]
 }
