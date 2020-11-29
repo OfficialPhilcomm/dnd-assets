@@ -16,6 +16,5 @@ main {
   height: 100vh;
   overflow-y: auto;
 
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 5px;
 }
