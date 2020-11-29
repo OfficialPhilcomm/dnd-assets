@@ -123,6 +123,19 @@
       "cursed": false,
       "weight": 1,
       "elementalType": "normal"
+    },
+    {
+      "id": "ff521966-e448-4faa-8ea1-63433e1403ca",
+      "name": "Ice Boots",
+      "description": "test",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "boots",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "ice"
     }
   ]
 }
