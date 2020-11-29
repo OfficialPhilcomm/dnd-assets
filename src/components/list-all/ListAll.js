@@ -78,9 +78,10 @@ export default class ListAll extends Component {
               <div>Player Level</div>
               <select name="playerLevel">
                 <option value="all">All</option>
-                <option value="0">Low level</option>
-                <option value="1">Mid level</option>
-                <option value="2">High level</option>
+                <option value="0">Level 1-5</option>
+                <option value="1">Level 6-10</option>
+                <option value="2">Level 11-15</option>
+                <option value="3">Level 16-20</option>
               </select>
             </div>
             <div className="listAll-filterBox">

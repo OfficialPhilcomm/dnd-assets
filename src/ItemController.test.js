@@ -72,7 +72,7 @@ describe("check for correct item structure", () => {
       expect(item.playerLevel).toBeDefined();
       expect(typeof item.playerLevel).toEqual("number");
       expect(item.playerLevel).toBeGreaterThanOrEqual(0);
-      expect(item.playerLevel).toBeLessThanOrEqual(2);
+      expect(item.playerLevel).toBeLessThanOrEqual(3);
 
       expect(item.rarity).toBeDefined();
       expect(typeof item.rarity).toEqual("number");
