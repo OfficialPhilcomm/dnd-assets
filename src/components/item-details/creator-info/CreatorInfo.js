@@ -1,28 +1,28 @@
 import React, { Component } from "react";
-import "./artist-info.css";
+import "./creator-info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
-export default class ArtistInfo extends Component {
+export default class CreatorInfo extends Component {
   render() {
     return (
-      <div className="artistInfo">
-        <div className="artistInfo-artistName">
-          <span>Artist: </span>
+      <div className="creatorInfo">
+        <div className="creatorInfo-creatorName">
+          <span>Creator: </span>
           <span>Will</span>
         </div>
-        <div className="artistInfo-socialMedia">
+        <div className="creatorInfo-socialMedia">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://instagram.com/"
           >
-            <div className="artistInfo-socialMedia-container instagram">
+            <div className="creatorInfo-socialMedia-container instagram">
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="artistInfo-socialMedia-container-logo"
+                className="creatorInfo-socialMedia-container-logo"
               />
-              <div className="artistInfo-socialMedia-container-username">
+              <div className="creatorInfo-socialMedia-container-username">
                 @will
               </div>
             </div>
@@ -32,12 +32,12 @@ export default class ArtistInfo extends Component {
             rel="noopener noreferrer"
             href="https://twitter.com/"
           >
-            <div className="artistInfo-socialMedia-container twitter">
+            <div className="creatorInfo-socialMedia-container twitter">
               <FontAwesomeIcon
                 icon={faTwitter}
-                className="artistInfo-socialMedia-container-logo"
+                className="creatorInfo-socialMedia-container-logo"
               />
-              <div className="artistInfo-socialMedia-container-username">
+              <div className="creatorInfo-socialMedia-container-username">
                 @will
               </div>
             </div>

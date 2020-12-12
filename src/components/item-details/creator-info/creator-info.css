@@ -1,4 +1,4 @@
-.artistInfo {
+.creatorInfo {
   width: 100%;
   max-width: 500px;
   padding: 10px;
@@ -17,7 +17,7 @@
   border-radius: 20px;
 }
 
-.artistInfo-socialMedia {
+.creatorInfo-socialMedia {
   padding-right: 20px;
   margin-left: auto;
 
@@ -27,11 +27,11 @@
   align-items: flex-end;
 }
 
-.artistInfo-socialMedia a {
+.creatorInfo-socialMedia a {
   text-decoration: none;
 }
 
-.artistInfo-socialMedia-container {
+.creatorInfo-socialMedia-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -44,21 +44,21 @@
   color: #011445;
 }
 
-.artistInfo-socialMedia-container-logo {
+.creatorInfo-socialMedia-container-logo {
   font-size: 30px;
   margin: 0 5px;
 
   transition: 150ms color;
 }
 
-.artistInfo-socialMedia-container.instagram:hover {
+.creatorInfo-socialMedia-container.instagram:hover {
   color: #f56040;
 }
 
-.artistInfo-socialMedia-container.twitter:hover {
+.creatorInfo-socialMedia-container.twitter:hover {
   color: #1da1f2;
 }
 
-.artistInfo-socialMedia-container-username {
+.creatorInfo-socialMedia-container-username {
   transition: 150ms color;
 }
