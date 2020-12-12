@@ -13,6 +13,7 @@ test("check for creator name uniqueness", () => {
 describe("check if creator has required tags", () => {
   const creators = CreatorController.creators.forEach((creator) => {
     test(`for creator ${creator.name}`, () => {
+      expect(creator.tag).toBeDefined();
       expect(creator.name).toBeDefined();
       expect(creator.socialMedia).toBeDefined();
     });

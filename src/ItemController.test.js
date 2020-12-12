@@ -1,5 +1,6 @@
 import ItemController from "./ItemController";
 import ItemPacks from "./item-packs/item_packs.json";
+import CreatorController from "./creators/CreatorController";
 
 test("check for item id uniqueness", () => {
   const item_ids = ItemController.items.map((item) => item.id);
@@ -58,12 +59,16 @@ describe("check for correct item structure", () => {
     "speed",
     "skills",
     "elementalType",
+    "author",
+    "artist",
   ];
 
   const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
   const racialOrigins = ["human", "fiendish", "elven"];
   const itemTypes = ["sword", "helmet", "gauntlet", "boots"];
   const elementalTypes = ["normal", "fire", "ice", "nature"];
+
+  const creatorTags = CreatorController.creators.map((creator) => creator.tag);
 
   items.forEach((item) => {
     test(`in item ${item.name || "name missing"}`, () => {
@@ -149,6 +154,14 @@ describe("check for correct item structure", () => {
       expect(item.elementalType).toBeDefined();
       expect(typeof item.elementalType).toEqual("string");
       expect(elementalTypes).toContain(item.elementalType);
+
+      expect(item.author).toBeDefined();
+      expect(typeof item.author).toEqual("string");
+      expect(creatorTags).toContain(item.author);
+
+      expect(item.artist).toBeDefined();
+      expect(typeof item.artist).toEqual("string");
+      expect(creatorTags).toContain(item.artist);
     });
   });
 });

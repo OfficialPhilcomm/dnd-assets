@@ -3,8 +3,7 @@
     {
       "id": "ff521966-b4d7-44d3-b12f-f4955dfed557",
       "name": "Galadriel’s Edge",
-      "description":
-        "Long ago the great Elven king Galadriel travelled into a dark land of shadow and evil. Legends say Galadriel vanished, perhaps falling in battle or captured by his enemy, non can say for sure. What is known however is the a year after Galadriel entered the shadowed lands his horse returned home, carrying on his sword and scabbard.",
+      "description": "Long ago the great Elven king Galadriel travelled into a dark land of shadow and evil. Legends say Galadriel vanished, perhaps falling in battle or captured by his enemy, non can say for sure. What is known however is the a year after Galadriel entered the shadowed lands his horse returned home, carrying on his sword and scabbard.",
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "elven",
@@ -20,13 +19,14 @@
           "text": "Whilst the sword is equipped you can cast the Light cantrip and once per day you can cast Daylight."
         }
       ],
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-779b-487a-931c-608a56f43e8e",
       "name": "Runed Scimitar",
-      "description":
-        "Raiders that make their home in the desert have been known to use areas of strong elemental magic to enhance their equipment. This sword is capable of summoning the sands from the endless deserts of the plain of earth.",
+      "description": "Raiders that make their home in the desert have been known to use areas of strong elemental magic to enhance their equipment. This sword is capable of summoning the sands from the endless deserts of the plain of earth.",
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "human",
@@ -42,13 +42,14 @@
           "text": "Whilst equipped you can summon a blast of blinding sand causing enemies in a 15ft cone to make a DC15 Dexterity Saving Throw, failure causes the targets to make attacks with Disadvantage until the end of your next turn."
         }
       ],
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-0a45-4b47-bfeb-d832abbfc3d5",
       "name": "Golden Helmet",
-      "description":
-        "Heroes of great renown are capable of inspiring their fellows with powerful words and mighty actions. Sometimes those deeds empower their equipment and when they leave this world others may fight in their stead, benefitting from a mote of their power.",
+      "description": "Heroes of great renown are capable of inspiring their fellows with powerful words and mighty actions. Sometimes those deeds empower their equipment and when they leave this world others may fight in their stead, benefitting from a mote of their power.",
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "human",
@@ -59,17 +60,18 @@
       "properties": "+1 Charisma",
       "customProperties": [
         {
-          "name": "Champions Call", 
+          "name": "Champions Call",
           "text": "Once per day you can inspire your fellow warriors, all allies within 30ft gain temporary hit points equal to D6+ your Charisma modifier."
-          }
-        ],
-      "elementalType": "normal"
+        }
+      ],
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-76cc-4abc-8f9c-7e7e48ff6def",
       "name": "Fiend’s Hood",
-      "description":
-        "Said to be the cowl worn by executions of the nine hells, this dark item bestows a power on the user to aid in their slaughter but that takes its toll on the body over time.",
+      "description": "Said to be the cowl worn by executions of the nine hells, this dark item bestows a power on the user to aid in their slaughter but that takes its toll on the body over time.",
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "fiendish",
@@ -77,15 +79,15 @@
       "itemType": "helmet",
       "cursed": false,
       "weight": 0.5,
-      "properties":
-        "Whilst wearing this hood, if the user slays an enemy a wave of fear washes over their allies. All enemy creatures within 15ft must make a DC15 Wisdom Saving Throw.",
-      "elementalType": "normal"
+      "properties": "Whilst wearing this hood, if the user slays an enemy a wave of fear washes over their allies. All enemy creatures within 15ft must make a DC15 Wisdom Saving Throw.",
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-eda1-411a-8a75-6e1717d6bfba",
       "name": "Mask of the Penguin",
-      "description":
-        "Crafted for use at costume parties and fancy balls this magical piece of headgear allows the wearer to both elegantly disguise themselves and delight partygoers with a bit of transmutation magic.",
+      "description": "Crafted for use at costume parties and fancy balls this magical piece of headgear allows the wearer to both elegantly disguise themselves and delight partygoers with a bit of transmutation magic.",
       "playerLevel": 0,
       "rarity": 0,
       "racialOrigin": "human",
@@ -93,8 +95,7 @@
       "itemType": "helmet",
       "cursed": false,
       "weight": 0.1,
-      "properties":
-        "Once per day, whilst wearing this mask you can turn into any kind of penguin you are familiar with, if you are not familiar with any you may use the Emperor Penguin. It must be medium or smaller. This affect lasts for 2 hours.",
+      "properties": "Once per day, whilst wearing this mask you can turn into any kind of penguin you are familiar with, if you are not familiar with any you may use the Emperor Penguin. It must be medium or smaller. This affect lasts for 2 hours.",
       "customProperties": [
         {
           "name": "Hold Breathe",
@@ -109,7 +110,9 @@
       "hitPoints": 12,
       "speed": "15ft, swim 60ft.",
       "skills": "Perception +3",
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-be9f-493c-9394-81e9f38478cd",
@@ -122,7 +125,9 @@
       "itemType": "gauntlet",
       "cursed": false,
       "weight": 1,
-      "elementalType": "nature"
+      "elementalType": "nature",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-e448-4faa-8ea1-63433e1403ca",
@@ -135,7 +140,9 @@
       "itemType": "boots",
       "cursed": false,
       "weight": 1,
-      "elementalType": "ice"
+      "elementalType": "ice",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-b845-4d6a-ad37-f75be5572bbb",
@@ -148,7 +155,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "fire"
+      "elementalType": "fire",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-6d75-4ae2-9676-b290097071ff",
@@ -161,7 +170,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-ee31-44aa-8cc2-29a4b685ea78",
@@ -174,7 +185,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-3d21-4d68-8422-621e31d3811c",
@@ -187,7 +200,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-ab34-4428-87a4-5b0584770b8a",
@@ -200,7 +215,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     },
     {
       "id": "ff521966-b5a9-4e48-8bf8-03d97fe91734",
@@ -213,7 +230,9 @@
       "itemType": "sword",
       "cursed": false,
       "weight": 1,
-      "elementalType": "normal"
+      "elementalType": "normal",
+      "author": "will",
+      "artist": "will"
     }
   ]
 }
