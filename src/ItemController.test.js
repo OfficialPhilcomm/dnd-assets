@@ -8,6 +8,18 @@ test("check for item id uniqueness", () => {
   expect(item_ids.length).toEqual(unique_ids.size);
 });
 
+describe("check if itempacks are not empty", () => {
+  const itemPacks = ItemPacks.itemPacks;
+
+  itemPacks.forEach((itemPack) => {
+    test(`for item pack ${itemPack}`, () => {
+      const packData = require(`./item-packs/${itemPack}`);
+
+      expect(packData.items.length).toBeGreaterThan(0);
+    });
+  });
+});
+
 describe("check if ids have same prefix", () => {
   const itemPacks = ItemPacks.itemPacks;
 
