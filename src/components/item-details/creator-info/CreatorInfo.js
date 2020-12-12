@@ -6,15 +6,14 @@ import CreatorController from "../../../creators/CreatorController";
 
 export default class CreatorInfo extends Component {
   render() {
-    const authorTag = this.props.author;
-    const artistTag = this.props.artist;
+    const creatorTag = this.props.creatorTag;
 
-    const creator = CreatorController.getCreatorByTag(authorTag);
+    const creator = CreatorController.getCreatorByTag(creatorTag);
 
     return (
       <div className="creatorInfo">
         <div className="creatorInfo-creatorName">
-          <span>Creator: </span>
+          <span>{this.props.text}: </span>
           <span>{creator.name}</span>
         </div>
         <div className="creatorInfo-socialMedia">

@@ -1,8 +1,5 @@
 .creatorInfo {
-  width: 100%;
-  max-width: 500px;
   padding: 10px;
-  margin: 10px auto 10px auto;
 
   display: flex;
   flex-direction: row;
@@ -11,10 +8,6 @@
 
   font-family: PassionOne, Roboto, sans-serif;
   font-size: 14pt;
-
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(5px);
-  border-radius: 20px;
 }
 
 .creatorInfo-socialMedia {

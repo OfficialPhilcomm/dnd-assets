@@ -58,3 +58,14 @@
   backdrop-filter: blur(5px);
   border-radius: 20px;
 }
+
+.itemDetails-creatorContainer {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 10px auto 10px auto;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
