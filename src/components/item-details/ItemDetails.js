@@ -24,7 +24,7 @@ export default class ItemDetails extends Component {
         <div className="itemDetails-name">{item.name}</div>
         <div className="itemDetails-description">{item.description}</div>
         <DetailsTable item={item} />
-        <CreatorInfo />
+        <CreatorInfo author={item.author} artist={item.artist} />
       </main>
     );
   }

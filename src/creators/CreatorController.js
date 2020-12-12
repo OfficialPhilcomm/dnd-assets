@@ -6,9 +6,9 @@ export default class CreatorController {
       CreatorController._creators || CreatorData.creators);
   }
 
-  static getCreatorByName(name) {
+  static getCreatorByTag(tag) {
     const result = CreatorController.creators.filter(
-      (creator) => creator.name === name
+      (creator) => creator.tag === tag
     );
 
     return result.length === 1 ? result[0] : undefined;

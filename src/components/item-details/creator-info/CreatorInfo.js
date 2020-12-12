@@ -2,14 +2,20 @@ import React, { Component } from "react";
 import "./creator-info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import CreatorController from "../../../creators/CreatorController";
 
 export default class CreatorInfo extends Component {
   render() {
+    const authorTag = this.props.author;
+    const artistTag = this.props.artist;
+
+    const creator = CreatorController.getCreatorByTag(authorTag);
+
     return (
       <div className="creatorInfo">
         <div className="creatorInfo-creatorName">
           <span>Creator: </span>
-          <span>Will</span>
+          <span>{creator.name}</span>
         </div>
         <div className="creatorInfo-socialMedia">
           <a
