@@ -13,6 +13,11 @@
           "tag": "will"
         }
       ]
+    },
+    {
+      "tag": "nico",
+      "name": "Nicolas",
+      "socialMedia": [{ "platform": "instagram", "tag": "nico" }]
     }
   ]
 }
