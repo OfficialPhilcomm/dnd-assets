@@ -12,6 +12,8 @@ export default class ItemDetails extends Component {
     const spriteUrl =
       item.spriteUrl || require(`../../img/sprites/${itemId}.png`);
 
+    const isCreatorSame = item.author === item.artist;
+
     return (
       <main className="itemDetails-main">
         <div className="itemDetails-spriteContainer">
@@ -25,8 +27,14 @@ export default class ItemDetails extends Component {
         <div className="itemDetails-description">{item.description}</div>
         <DetailsTable item={item} />
         <div className="itemDetails-creatorContainer">
-          <CreatorInfo text="Author" creatorTag={item.author} />
-          <CreatorInfo text="Artist" creatorTag={item.artist} />
+          {isCreatorSame ? (
+            <CreatorInfo text="Author and Artist" creatorTag={item.author} />
+          ) : (
+            <React.Fragment>
+              <CreatorInfo text="Author" creatorTag={item.author} />
+              <CreatorInfo text="Artist" creatorTag={item.artist} />
+            </React.Fragment>
+          )}
         </div>
       </main>
     );
