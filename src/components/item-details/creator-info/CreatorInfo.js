@@ -31,7 +31,9 @@ export default class CreatorInfo extends Component {
               }
               key={socialMedia.platform}
             >
-              <div className="creatorInfo-socialMedia-container instagram">
+              <div
+                className={`creatorInfo-socialMedia-container ${socialMedia.platform}`}
+              >
                 <FontAwesomeIcon
                   icon={
                     socialMedia.platform === "instagram"
