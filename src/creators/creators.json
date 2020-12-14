@@ -18,6 +18,14 @@
       "tag": "nico",
       "name": "Nicolas",
       "socialMedia": [{ "platform": "instagram", "tag": "nico" }]
+    },
+    {
+      "tag": "philcomm",
+      "name": "Philipp",
+      "socialMedia": [
+        { "platform": "instagram", "tag": "officialphilcomm" },
+        { "platform": "twitter", "tag": "dev_philcomm" }
+      ]
     }
   ]
 }
