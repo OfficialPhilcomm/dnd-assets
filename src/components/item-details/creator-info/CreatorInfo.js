@@ -16,37 +16,32 @@ export default class CreatorInfo extends Component {
           <span>{this.props.text}: </span>
           <span>{creator.name}</span>
         </div>
+
         <div className="creatorInfo-socialMedia">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://instagram.com/"
-          >
-            <div className="creatorInfo-socialMedia-container instagram">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="creatorInfo-socialMedia-container-logo"
-              />
-              <div className="creatorInfo-socialMedia-container-username">
-                @will
+          {creator.socialMedia.map((socialMedia) => (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://instagram.com/"
+              key={socialMedia.platform}
+            >
+              <div className="creatorInfo-socialMedia-container instagram">
+                <FontAwesomeIcon
+                  icon={
+                    socialMedia.platform === "instagram"
+                      ? faInstagram
+                      : socialMedia.platform === "twitter"
+                      ? faTwitter
+                      : null
+                  }
+                  className="creatorInfo-socialMedia-container-logo"
+                />
+                <div className="creatorInfo-socialMedia-container-username">
+                  @{socialMedia.tag}
+                </div>
               </div>
-            </div>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com/"
-          >
-            <div className="creatorInfo-socialMedia-container twitter">
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="creatorInfo-socialMedia-container-logo"
-              />
-              <div className="creatorInfo-socialMedia-container-username">
-                @will
-              </div>
-            </div>
-          </a>
+            </a>
+          ))}
         </div>
       </div>
     );
