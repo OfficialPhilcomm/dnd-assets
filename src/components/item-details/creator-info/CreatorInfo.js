@@ -26,8 +26,8 @@ export default class CreatorInfo extends Component {
                 socialMedia.platform === "instagram"
                   ? `https://www.instagram.com/${socialMedia.tag}/`
                   : socialMedia.platform === "twitter"
-                  ? `https://twitter.com/${socialMedia.tag}`
-                  : null
+                  ? `https://twitter.com/${socialMedia.tag}/`
+                  : "/#"
               }
               key={socialMedia.platform}
             >
