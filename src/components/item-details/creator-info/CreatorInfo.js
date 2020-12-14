@@ -22,7 +22,13 @@ export default class CreatorInfo extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://instagram.com/"
+              href={
+                socialMedia.platform === "instagram"
+                  ? `https://www.instagram.com/${socialMedia.tag}/`
+                  : socialMedia.platform === "twitter"
+                  ? `https://twitter.com/${socialMedia.tag}`
+                  : null
+              }
               key={socialMedia.platform}
             >
               <div className="creatorInfo-socialMedia-container instagram">
