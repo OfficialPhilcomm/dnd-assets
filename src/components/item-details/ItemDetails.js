@@ -8,7 +8,7 @@ import QuestionMark from "../../img/question-circle-regular.svg";
 export default class ItemDetails extends Component {
   getSprite(itemId) {
     try {
-      return require(`../../../../img/sprites/${itemId}.png`);
+      return require(`../../img/sprites/${itemId}.png`);
     } catch (err) {
       return QuestionMark;
     }
