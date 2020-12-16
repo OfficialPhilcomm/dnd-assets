@@ -269,6 +269,27 @@
       ],
       "author": "philcomm",
       "artist": "will"
+    },
+    {
+      "id": "ff521966-e9c3-41ba-813f-ec3c9792091e",
+      "name": "Truthcrystal",
+      "description": "A truth crystal is a very rare mineral found in deep caves. They are so rare, most people don't even know that they exist.",
+      "playerLevel": 0,
+      "rarity": 2,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "item",
+      "cursed": false,
+      "weight": 0.1,
+      "elementalType": "normal",
+      "customProperties": [
+        {
+          "name": "Wisdom",
+          "text": "When swallowed, the stone can give you an answer to a question you have."
+        }
+      ],
+      "author": "philcomm",
+      "artist": "will"
     }
   ]
 }
