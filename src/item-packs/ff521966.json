@@ -248,6 +248,27 @@
       "elementalType": "normal",
       "author": "philcomm",
       "artist": "will"
+    },
+    {
+      "id": "ff521966-b1a6-405d-8bbe-1857886b7979",
+      "name": "Rune stone of healing",
+      "description": "A stone with a rune on it. This is a very common rune stone in the northern regions.",
+      "playerLevel": 0,
+      "rarity": 0,
+      "racialOrigin": "human",
+      "unique": false,
+      "itemType": "item",
+      "cursed": false,
+      "weight": 0.2,
+      "elementalType": "normal",
+      "customProperties": [
+        {
+          "name": "Healing",
+          "text": "When a drop of water is put on the stone, you can get 10hp back."
+        }
+      ],
+      "author": "philcomm",
+      "artist": "will"
     }
   ]
 }
