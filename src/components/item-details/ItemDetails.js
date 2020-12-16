@@ -3,14 +3,22 @@ import "./item-details.css";
 import StringUtils from "../../StringUtils";
 import DetailsTable from "./details-table/DetailsTable";
 import CreatorInfo from "./creator-info/CreatorInfo";
+import QuestionMark from "../../img/question-circle-regular.svg";
 
 export default class ItemDetails extends Component {
+  getSprite(itemId) {
+    try {
+      return require(`../../../../img/sprites/${itemId}.png`);
+    } catch (err) {
+      return QuestionMark;
+    }
+  }
+
   render() {
     const itemId = this.props.match.params.id;
 
     const item = StringUtils.getItemById(itemId);
-    const spriteUrl =
-      item.spriteUrl || require(`../../img/sprites/${itemId}.png`);
+    const spriteUrl = this.getSprite(itemId);
 
     const isCreatorSame = item.author === item.artist;
 
