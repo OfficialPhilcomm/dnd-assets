@@ -233,6 +233,21 @@
       "elementalType": "normal",
       "author": "will",
       "artist": "will"
+    },
+    {
+      "id": "ff521966-5f17-4e46-bc51-786f149937d5",
+      "name": "Northern Traveller Chestpiece",
+      "description": "A strong man once came to the town. He was from the north, he said. Since his chestpiece was too hot, he traded it for some clothes that were not that warm.",
+      "playerLevel": 0,
+      "rarity": 2,
+      "racialOrigin": "human",
+      "unique": true,
+      "itemType": "breastplate",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal",
+      "author": "philcomm",
+      "artist": "will"
     }
   ]
 }

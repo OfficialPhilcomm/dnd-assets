@@ -65,7 +65,7 @@ describe("check for correct item structure", () => {
 
   const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
   const racialOrigins = ["human", "fiendish", "elven"];
-  const itemTypes = ["sword", "helmet", "gauntlet", "boots"];
+  const itemTypes = ["sword", "helmet", "breastplate", "gauntlet", "boots"];
   const elementalTypes = ["normal", "fire", "ice", "nature"];
 
   const creatorTags = CreatorController.creators.map((creator) => creator.tag);
