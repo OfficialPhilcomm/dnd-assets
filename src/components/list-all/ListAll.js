@@ -26,6 +26,7 @@ export default class ListAll extends Component {
     const itemType = event.target.elements.itemType.value;
     const cursed = event.target.elements.cursed.value;
     const elementalType = event.target.elements.elementalType.value;
+    const unfinished = event.target.elements.unfinished.value;
 
     let filters = {};
 
@@ -49,6 +50,9 @@ export default class ListAll extends Component {
     }
     if (elementalType !== "all") {
       filters.elementalType = elementalType;
+    }
+    if (unfinished !== "all") {
+      filters.unfinished = unfinished === "true" ? true : false;
     }
 
     this.setState({ filters: filters });
@@ -146,6 +150,13 @@ export default class ListAll extends Component {
                     {elementalType}
                   </option>
                 ))}
+              </select>
+            </div>
+            <div className="listAll-filterBox">
+              <div>Finished</div>
+              <select name="unfinished">
+                <option value="all">All</option>
+                <option value="true">Unfinished</option>
               </select>
             </div>
 
