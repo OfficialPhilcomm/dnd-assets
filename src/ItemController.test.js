@@ -61,6 +61,7 @@ describe("check for correct item structure", () => {
     "elementalType",
     "author",
     "artist",
+    "unfinished",
   ];
 
   const idRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/;
@@ -169,6 +170,10 @@ describe("check for correct item structure", () => {
       expect(item.artist).toBeDefined();
       expect(typeof item.artist).toEqual("string");
       expect(creatorTags).toContain(item.artist);
+
+      if (item.unfinished) {
+        expect(typeof item.unfinished).toEqual("boolean");
+      }
     });
   });
 });
