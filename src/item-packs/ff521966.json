@@ -301,6 +301,23 @@
       "author": "philcomm",
       "artist": "will",
       "unfinished": true
+    },
+    {
+      "id": "ff521966-56af-4295-90ab-3e4d109e1400",
+      "name": "Greaves of Traipsing",
+      "description": "These solid, ornate, metallic boots feel surprisingly light once donned, even though they still clang heavily while walking around in them.",
+      "playerLevel": 0,
+      "rarity": 1,
+      "racialOrigin": "gnome",
+      "unique": false,
+      "itemType": "boots",
+      "cursed": false,
+      "weight": 1,
+      "properties": "While wearing these shoes, you receive no penalty for moving through difficult terrain. Additionally, while standing on difficult terrain, you can perform a special Kick melee attack with advantage. If it hits, the opponent will be forced to make their next Attack at a disadvantage. This attack can be used once per short rest. Due to the loud clanging, you must make your stealth checks at a disadvantage.",
+      "elementalType": "normal",
+      "author": "sagan",
+      "artist": "will",
+      "unfinished": true
     }
   ]
 }
