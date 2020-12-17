@@ -26,6 +26,7 @@
         { "platform": "instagram", "tag": "officialphilcomm" },
         { "platform": "twitter", "tag": "dev_philcomm" }
       ]
-    }
+    },
+    { "tag": "sagan", "name": "Sagan", "socialMedia": [] }
   ]
 }
