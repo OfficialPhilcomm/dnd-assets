@@ -68,6 +68,7 @@ describe("check for correct item structure", () => {
   const racialOrigins = ["human", "fiendish", "elven", "gnome"];
   const itemTypes = [
     "sword",
+    "spear",
     "helmet",
     "breastplate",
     "gauntlet",

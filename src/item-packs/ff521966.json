@@ -318,6 +318,22 @@
       "author": "sagan",
       "artist": "will",
       "unfinished": true
+    },
+    {
+      "id": "ff521966-0367-4d0d-85a3-4b532563410b",
+      "name": "Dinaro's Lost Spear",
+      "description": "In his last battle, King Dinaro, ruler of the sea people, lost his spear. It fell into the ocean. Nobody saw it ever since.",
+      "playerLevel": 2,
+      "rarity": 2,
+      "racialOrigin": "human",
+      "unique": true,
+      "itemType": "spear",
+      "cursed": false,
+      "weight": 1,
+      "elementalType": "normal",
+      "author": "philcomm",
+      "artist": "will",
+      "unfinished": true
     }
   ]
 }
