@@ -27,7 +27,11 @@
         { "platform": "twitter", "tag": "dev_philcomm" }
       ]
     },
-    { "tag": "sagan", "name": "Sagan", "socialMedia": [] },
+    {
+      "tag": "sagan",
+      "name": "Sagan",
+      "socialMedia": [{ "platform": "twitter", "tag": "mateusz_sagan" }]
+    },
     {
       "tag": "shams",
       "name": "Shams",
