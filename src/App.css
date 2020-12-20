@@ -3,6 +3,14 @@
   src: url("./fonts/PassionOne-Regular.ttf") format("truetype");
 }
 
+:root {
+  --text-color-primary: black;
+  --text-color-one: #011445;
+  --text-color-two: #3a035c;
+  --text-color-three: #668efa;
+  --text-color-four: #c166fa;
+}
+
 .App {
   min-height: 100vh;
 
