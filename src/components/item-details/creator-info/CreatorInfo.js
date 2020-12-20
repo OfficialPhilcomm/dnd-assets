@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import "./creator-info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faInstagram,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import CreatorController from "../../../creators/CreatorController";
 
 export default class CreatorInfo extends Component {
@@ -27,6 +31,8 @@ export default class CreatorInfo extends Component {
                   ? `https://www.instagram.com/${socialMedia.tag}/`
                   : socialMedia.platform === "twitter"
                   ? `https://twitter.com/${socialMedia.tag}/`
+                  : socialMedia.platform === "youtube"
+                  ? `https://www.youtube.com/c/${socialMedia.tag}`
                   : "/#"
               }
               key={socialMedia.platform}
@@ -40,6 +46,8 @@ export default class CreatorInfo extends Component {
                       ? faInstagram
                       : socialMedia.platform === "twitter"
                       ? faTwitter
+                      : socialMedia.platform === "youtube"
+                      ? faYoutube
                       : null
                   }
                   className="creatorInfo-socialMedia-container-logo"

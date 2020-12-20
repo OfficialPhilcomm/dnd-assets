@@ -55,6 +55,10 @@
   color: #1da1f2;
 }
 
+.creatorInfo-socialMedia-container.youtube:hover {
+  color: #ff0000;
+}
+
 .creatorInfo-socialMedia-container-username {
   transition: 150ms color;
 }
