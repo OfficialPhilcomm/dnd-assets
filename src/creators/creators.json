@@ -27,6 +27,11 @@
         { "platform": "twitter", "tag": "dev_philcomm" }
       ]
     },
-    { "tag": "sagan", "name": "Sagan", "socialMedia": [] }
+    { "tag": "sagan", "name": "Sagan", "socialMedia": [] },
+    {
+      "tag": "shams",
+      "name": "Shams",
+      "socialMedia": [{ "platform": "youtube", "tag": "PenandBlade" }]
+    }
   ]
 }
