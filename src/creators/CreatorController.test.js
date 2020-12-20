@@ -21,7 +21,7 @@ describe("check if creator has required tags", () => {
 });
 
 describe("check if creators has supported social media", () => {
-  const supportedSocialMedia = ["instagram", "twitter"];
+  const supportedSocialMedia = ["instagram", "twitter", "youtube"];
 
   const creators = CreatorController.creators.forEach((creator) => {
     test(`for creator ${creator.name}`, () => {
