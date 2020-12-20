@@ -53,7 +53,9 @@ export default class CreatorInfo extends Component {
                   className="creatorInfo-socialMedia-container-logo"
                 />
                 <div className="creatorInfo-socialMedia-container-username">
-                  @{socialMedia.tag}
+                  {socialMedia.alias
+                    ? socialMedia.alias
+                    : `@${socialMedia.tag}`}
                 </div>
               </div>
             </a>

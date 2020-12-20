@@ -31,7 +31,9 @@
     {
       "tag": "shams",
       "name": "Shams",
-      "socialMedia": [{ "platform": "youtube", "tag": "PenandBlade" }]
+      "socialMedia": [
+        { "platform": "youtube", "tag": "PenandBlade", "alias": "Pen & Blade" }
+      ]
     }
   ]
 }
