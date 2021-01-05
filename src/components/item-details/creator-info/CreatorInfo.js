@@ -17,8 +17,7 @@ export default class CreatorInfo extends Component {
     return (
       <div className="creatorInfo">
         <div className="creatorInfo-creatorName">
-          <span>{this.props.text}: </span>
-          <span>{creator.name}</span>
+          {this.props.text}: {creator.name}
         </div>
 
         <div className="creatorInfo-socialMedia">
