@@ -38,6 +38,14 @@ describe("check if ids have same prefix", () => {
 });
 
 describe("check for correct item structure", () => {
+  const imageExists = (itemId) => {
+    try {
+      return require(`./img/sprites/${itemId}.png`);
+    } catch (err) {
+      return undefined;
+    }
+  };
+
   const items = ItemController.items;
 
   const itemAttributes = [
@@ -88,6 +96,10 @@ describe("check for correct item structure", () => {
       expect(item.id).toBeDefined();
       expect(typeof item.id).toEqual("string");
       expect(item.id).toMatch(idRegex);
+
+      if (!item.unfinished) {
+        expect(imageExists(item.id)).toBeDefined();
+      }
 
       expect(item.name).toBeDefined();
       expect(typeof item.name).toEqual("string");
